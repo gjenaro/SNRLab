@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* SNRLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* SNRLabApp.swift */; };
+		A00000000000000000000002 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* AppModel.swift */; };
+		A00000000000000000000003 /* AudioEngines.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* AudioEngines.swift */; };
+		A00000000000000000000004 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* Models.swift */; };
+		A00000000000000000000005 /* MainViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* MainViews.swift */; };
+		A00000000000000000000006 /* TestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* TestViews.swift */; };
+		A00000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* Assets.xcassets */; };
+		A00000000000000000000008 /* PersonalizedAudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* PersonalizedAudioEngine.swift */; };
+		A00000000000000000000009 /* PersonalizedAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* PersonalizedAudioView.swift */; };
+		A0000000000000000000000A /* DemoMusic in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* DemoMusic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* SNRLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNRLabApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* AudioEngines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngines.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* MainViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* TestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViews.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000009 /* SNRLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNRLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0000000000000000000000A /* PersonalizedAudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedAudioEngine.swift; sourceTree = "<group>"; };
+		B0000000000000000000000B /* PersonalizedAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizedAudioView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* DemoMusic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DemoMusic; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000002 /* SNRLab */,
+				D00000000000000000000008 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000002 /* SNRLab */ = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000003 /* App */,
+				D00000000000000000000004 /* Audio */,
+				D00000000000000000000005 /* Models */,
+				D00000000000000000000006 /* Views */,
+				D00000000000000000000007 /* Resources */,
+			);
+			path = SNRLab;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* SNRLabApp.swift */,
+				B00000000000000000000002 /* AppModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000004 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000003 /* AudioEngines.swift */,
+				B0000000000000000000000A /* PersonalizedAudioEngine.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000004 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000005 /* MainViews.swift */,
+				B00000000000000000000006 /* TestViews.swift */,
+				B0000000000000000000000B /* PersonalizedAudioView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* Info.plist */,
+				B00000000000000000000008 /* Assets.xcassets */,
+				B0000000000000000000000C /* DemoMusic */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000008 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000009 /* SNRLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* SNRLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = H00000000000000000000002 /* Build configuration list for PBXNativeTarget "SNRLab" */;
+			buildPhases = (
+				F00000000000000000000001 /* Sources */,
+				C00000000000000000000001 /* Frameworks */,
+				G00000000000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNRLab;
+			productName = SNRLab;
+			productReference = B00000000000000000000009 /* SNRLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E00000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = H00000000000000000000001 /* Build configuration list for PBXProject "SNRLab" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000001;
+			productRefGroup = D00000000000000000000008 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* SNRLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		G00000000000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000007 /* Assets.xcassets in Resources */,
+				A0000000000000000000000A /* DemoMusic in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* SNRLabApp.swift in Sources */,
+				A00000000000000000000002 /* AppModel.swift in Sources */,
+				A00000000000000000000003 /* AudioEngines.swift in Sources */,
+				A00000000000000000000004 /* Models.swift in Sources */,
+				A00000000000000000000005 /* MainViews.swift in Sources */,
+				A00000000000000000000006 /* TestViews.swift in Sources */,
+				A00000000000000000000008 /* PersonalizedAudioEngine.swift in Sources */,
+				A00000000000000000000009 /* PersonalizedAudioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		I00000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		I00000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		I00000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9M54296UX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SNRLab/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SNRLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		I00000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9M54296UX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SNRLab/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SNRLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		H00000000000000000000001 /* Build configuration list for PBXProject "SNRLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				I00000000000000000000001 /* Debug */,
+				I00000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		H00000000000000000000002 /* Build configuration list for PBXNativeTarget "SNRLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				I00000000000000000000003 /* Debug */,
+				I00000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000002 /* Project object */;
+}
