@@ -93,7 +93,7 @@ where:
 The level conversion implemented by the bilateral workflow is
 
 $$
-L_\mathrm{dBFS}=\operatorname{clamp}(-70+0.75r,-70,-10),
+L_\mathrm{dBFS}=\mathrm{clamp}(-70+0.75r,-70,-10),
 $$
 
 where $r$ is the staircase's 0–80 relative-unit level. The PCM amplitude is then
@@ -263,7 +263,7 @@ grid search:
 For target probability $q$:
 
 $$
-\operatorname{SNR}_q=\theta+k\ln\left(\frac{q}{1-q}\right).
+\mathrm{SNR}_q=\theta+k\ln\left(\frac{q}{1-q}\right).
 $$
 
 The application displays $q=0.5$, $0.8$, and $0.9$.
@@ -296,7 +296,7 @@ Across the recent window, the app defines
 $$
 L_\mathrm{noise}=P_{20},\qquad
 L_\mathrm{signal}=P_{82},\qquad
-\widehat{\mathrm{SNR}}=\operatorname{clamp}(P_{82}-P_{20},-10,40).
+\widehat{\mathrm{SNR}}=\mathrm{clamp}(P_{82}-P_{20},-10,40).
 $$
 
 This estimator assumes lower-level periods approximate a noise floor and upper-
